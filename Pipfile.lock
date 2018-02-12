@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fd2fdcf01a7b09e6b7dd62adc99c240856285621aca00df6aea7c92ccb2c2b23"
+            "sha256": "0d527ccb54296ecf8163f50ec7b8970a3f27fa6633e27423f08758251f290885"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -165,6 +165,26 @@
                 "sha256:410bcd1d6409026fbaa65d9ed33bf6dd8b1e94a499e32168acfc7b332e4095c0"
             ],
             "version": "==2018.3"
+        },
+        "six": {
+            "hashes": [
+                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
+                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+            ],
+            "version": "==1.11.0"
+        },
+        "unittest-xml-reporting": {
+            "hashes": [
+                "sha256:5c57eb060defe0e0701c0ce6e6c9cf3f16234f5da751fbcb50721abd1bd02b94",
+                "sha256:a6d6aa2a5061deaced5adb0c88d77d423c4bd2a21bf33e6ef5135ef74ac793cb"
+            ],
+            "version": "==2.1.1"
+        },
+        "xmlrunner": {
+            "hashes": [
+                "sha256:5a6113d049eca7646111ee657266966e5bbfb0b5ceb2e83ee0772e16d7110f39"
+            ],
+            "version": "==1.7.7"
         }
     },
     "develop": {}

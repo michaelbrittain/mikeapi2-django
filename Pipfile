@@ -13,14 +13,16 @@ name = "pypi"
 
 colorama = "*"
 coverage = "*"
-Django = "*"
+django = "*"
 django-cors-headers = "*"
-django-nose = "*"
 djangorestframework = "*"
 nose = "*"
-pinocchio = "*"
 "psycopg2-binary" = "*"
 pytz = "*"
+xmlrunner = "*"
+unittest-xml-reporting = "*"
+pinocchio = "*"
+django-nose = "*"
 
 
 [requires]

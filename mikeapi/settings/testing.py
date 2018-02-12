@@ -19,6 +19,9 @@ NOSE_ARGS = [
     '--cover-xml-file=%s/coverage.xml' % TEST_OUTPUT_DIR
 ]
 
+# TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.XMLTestRunner'
+# TEST_OUTPUT_VERBOSE = 2
+# TEST_OUTPUT_DIR = 'test-results'
 
 #database
 
@@ -33,12 +36,12 @@ NOSE_ARGS = [
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db',
-        'PORT': 5432,
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'HOST': 'db',
+#         'PORT': 5432,
+#     }
+# }
