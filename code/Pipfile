@@ -1,0 +1,28 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+colorama = "*"
+coverage = "*"
+Django = "*"
+django-cors-headers = "*"
+django-nose = "*"
+djangorestframework = "*"
+nose = "*"
+pinocchio = "*"
+"psycopg2-binary" = "*"
+pytz = "*"
+
+
+[requires]
+
+python_version = "3.6"
