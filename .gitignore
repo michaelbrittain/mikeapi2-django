@@ -1,0 +1,8 @@
+.env
+venv
+*.pyc
+*.sqlite3
+.DS_Store
+.coverage
+coverage.xml
+unittests.xml

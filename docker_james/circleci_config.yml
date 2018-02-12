@@ -1,0 +1,29 @@
+machine:
+ services:
+   - docker
+
+dependencies:
+ override:
+   - docker info
+   - docker build --rm=false -t florence/helium .
+
+test:
+ override:
+   - docker run --net=host --env-file circle.env florence/helium ./manage.py test
+
+deployment:
+ staging:
+   branch: develop
+   commands:
+     - ./deploy.sh staging
+ production:
+   branch: master
+   commands:
+     - ./deploy.sh prod
+
+experimental:
+ notify:
+   branches:
+     only:
+       - develop
+       - master
